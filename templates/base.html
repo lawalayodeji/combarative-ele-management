@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    
+    <meta name="generator" content="Hugo 0.82.0" />
+    <title>Django-mfa2 Example | {% block title %} {% endblock title %}</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link
+      href="{% static 'css/bootstrap/css/bootstrap.min.css' %}"
+      rel="stylesheet"
+    />
+
+    <script src="{% static 'js/jquery-3.1.1.min.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    {% block head %} {% endblock %} {% block css %} {% endblock css %}
+  </head>
+
+  {% block content %} {% endblock content %}
+</html>
+Footer
+© 2023 GitHub, Inc.
